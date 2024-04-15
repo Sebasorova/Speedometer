@@ -30,6 +30,8 @@ Fuel Bar and Speed will be displayed in the following format:
 - **Placeholders:**
   - `{fuelbars}`
   - `{speed}`
+  - `{speedkbh}`
+  - `{speedknots}`
 
 - **Formats:**
   - Colors: `&7`
