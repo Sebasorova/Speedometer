@@ -69,6 +69,8 @@ public class Events implements Listener {
                             end.setY(0);
                             
                             finalspeed = start.distance(end) * 20;
+                            finalspeedkbh = finalspeed * 3.6;
+                            finalspeedknot = finalspeed * 1.944;
                         }
                     }
                 }
