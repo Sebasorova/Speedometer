@@ -32,6 +32,8 @@ public class Events implements Listener {
     static int fuel;
     static int amount;
     static double finalspeed;
+    static double finalspeedkbh;
+    static double finalspeedknot;
     
     private static Main plugin = Main.instance;
 
