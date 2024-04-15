@@ -8,7 +8,7 @@
 #
 # Placeholders:
 # {fuelbars}
-# {speed}
+# {speed}, {speedkbh} and {speedknots}
 #
 
 Config:
