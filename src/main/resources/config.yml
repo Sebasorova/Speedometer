@@ -16,6 +16,7 @@ Config:
   fuelbarDesign: '&8[{fuelbars}&8] &8| {speed} &x&f&f&c&5&4&fb&8/&x&f&f&c&5&4&fs'
   
   # Design your own Speedbar!
+  # {speedkbh} and {speedknots} also available options
   speedOnlyBar: '{speed} &x&f&f&c&5&4&fb&8/&x&f&f&c&5&4&fs'
   
   # Colors for the available {fuelbars}
@@ -24,7 +25,7 @@ Config:
   # Colors for the empty {fuelbars}
   fuelSpentColor: '&7'
   
-  # Color for the {speed}
+  # Color for the speed indicator
   speedColor: '&x&f&f&c&5&4&f'
   
   # Amount of Bars
