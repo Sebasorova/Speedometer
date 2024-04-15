@@ -106,7 +106,9 @@ public class Events implements Listener {
                         bar = plugin.getConfig().getString("Config.speedOnlyBar");
                     }
                     assert bar != null;
-                    bar = bar.replace("{speed}", speedC + String.format("%,.0f", finalspeed));
+                    bar = bar.replace("{speed}", speedC + String.format("%,.0f", finalspeed))
+                    .replace("{speedkbh}", speedC + String.format("%,.0f", finalspeedkbh))
+                    .replace("{speedknots}", speedC + String.format("%,.0f", finalspeedknot));
                     player.sendActionBar(ChatColor.translateAlternateColorCodes('&', bar));
                 } else {
                     cancel();
